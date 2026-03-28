@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* ==========================================
+ESTILOS GLOBALES 
+========================================== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #151515;
+  color: white;
+}
+
+div.container-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  div.container-sm {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  div.container-sm .social-media:nth-last-of-type(1) {
+    padding-right: 20px;
+  }
+}
+div.container-sm div.social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: 0.4s;
+  font-weight: 500;
+}
+.btn:hover {
+  color: #4EE1A0;
+}
+.btn::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: #4EE1A0;
+  margin-top: 10px;
+}
+
+/* ==========================================
+MARGENES DE LA PÁGINA
+========================================== */
+header, main, footer {
+  padding: 0px 15px;
+  box-sizing: border-box;
+}
+@media (min-width: 768px) {
+  header, main, footer {
+    padding: 0px 30px;
+  }
+}
+@media (min-width: 1024px) {
+  header, main, footer {
+    padding: 0px 150px;
+  }
+}
+@media (min-width: 1200px) {
+  header, main, footer {
+    padding: 0px 150px;
+  }
+}
+
+/* ==========================================
+TAMAÑO DE LOS TITULOS
+========================================== */
+h1, main .title > h2, footer div > h2 {
+  font-size: 2.2rem;
+}
+@media (min-width: 768px) {
+  h1, main .title > h2, footer div > h2 {
+    font-size: 4.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  h1, main .title > h2, footer div > h2 {
+    font-size: 5.5rem;
+  }
+}
+
+/* ==========================================
+ESTILOS PARA LOS a DE LOS PROYECTOS
+========================================== */
+main section article .img-wrapper div {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  main section article .img-wrapper {
+    position: relative;
+  }
+  main section article .img-wrapper:hover div {
+    opacity: 1;
+  }
+  main section article .img-wrapper:hover img {
+    filter: brightness(50%);
+  }
+  main section article .img-wrapper > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .a-config {
+    display: none;
+  }
+}
+/* ==========================================
+INDEX
+========================================== */
+header {
+  background-image: url("../img/man_mobile.png"), url("../img/Oval.png"), url("../img/adorno_left.png");
+  background-repeat: no-repeat;
+  background-position: top 0px left 50%, top 280px right -25%, top 150px left -180px;
+  background-size: 50%, 35%, 100%;
+}
+@media (min-width: 768px) {
+  header {
+    background-image: url("../img/Oval.png"), url("../img/man_general.png"), url("../img/adorno_left.png");
+    background-repeat: no-repeat;
+    background-position: top 90% right 45%, top 0px right 0px, top 80px left -100%;
+    background-size: 12%, auto 100%, 65%;
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    background-image: url("../img/adorno_left.png");
+    background-repeat: no-repeat;
+    background-position: top 80px left -150px;
+    background-size: 40%;
+  }
+}
+header div.background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  box-sizing: content-box;
+}
+@media (min-width: 1200px) {
+  header div.background {
+    background-image: url("../img/Oval.png"), url("../img/man_general.png");
+    background-repeat: no-repeat;
+    background-position: top 90% right 38%, top 0px right 0px;
+    background-size: 12%, auto 100%;
+  }
+}
+header div.container-sm {
+  margin-bottom: 100%;
+}
+@media (min-width: 768px) {
+  header div.container-sm {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 768px) {
+  header div.hero-info {
+    text-align: left;
+    width: 445px;
+    margin-right: auto;
+  }
+}
+@media (min-width: 768px) and (min-width: 1200px) {
+  header div.hero-info {
+    width: 750px;
+    margin-bottom: 200px;
+  }
+}
+header h1 {
+  margin: 0 0 50px 0;
+  text-align: center;
+  word-spacing: -2px;
+  line-height: 1;
+}
+header h1 span {
+  text-decoration: underline;
+  text-decoration-color: #4EE1A0;
+  text-underline-offset: 7px;
+}
+@media (min-width: 768px) {
+  header h1 {
+    text-align: left;
+    margin-top: 90px;
+    line-height: 1.1;
+  }
+}
+header p {
+  color: #d9d9d9;
+}
+@media (min-width: 768px) {
+  header p {
+    text-align: left;
+    width: 420px;
+    font-size: 1.12rem;
+  }
+}
+header a {
+  margin-top: 20px;
+  margin-right: auto;
+}
+
+main {
+  background-image: url("../img/adorno_right.png");
+  background-repeat: no-repeat;
+  background-position: top 580px right -100px;
+  margin-bottom: 100px;
+}
+main .skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+main .skills h2 {
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+main .skills p {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  main .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main .skills h2, main .skills p {
+    text-align: start;
+  }
+}
+@media (min-width: 1200px) {
+  main .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+}
+main .container-skills {
+  padding-top: 30px;
+}
+main .container-skills::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: white;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .container-skills::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: white;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main section {
+  padding: 10px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main section:nth-child(n+2) .title {
+  grid-column: 1/-1; /* Ocupa desde la primera hasta la última línea */
+}
+@media (min-width: 768px) {
+  main section:nth-child(n+2) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+main section .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+main section .title h2 {
+  font-weight: 700;
+  margin: 0;
+}
+main section .title a {
+  padding: 10px 0px;
+  align-self: center;
+}
+main section article {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+main section article img {
+  width: 100%;
+  height: auto;
+}
+main section article h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+main section article div {
+  display: flex;
+  gap: 10px;
+}
+main section article div span {
+  background-color: #242424;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+main section article div a {
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #242424;
+  text-align: center;
+  background-image: url("../img/adorno_left.png");
+  background-repeat: no-repeat;
+  background-position: top 350px left -250px;
+}
+footer div h2 {
+  padding: 60px 0px 20px 0px;
+  margin: 0;
+}
+footer div p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #d9d9d9;
+}
+footer form fieldset {
+  border: none;
+  margin: 0;
+  padding: 10px 0;
+}
+footer form fieldset legend {
+  display: none;
+}
+footer form fieldset .form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+footer form fieldset .form-inputs input, footer form fieldset .form-inputs textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-radius: 0%;
+}
+footer form fieldset .form-inputs input:hover, footer form fieldset .form-inputs input:focus, footer form fieldset .form-inputs textarea:hover, footer form fieldset .form-inputs textarea:focus {
+  color: #d9d9d9;
+  border-style: none;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid white;
+}
+footer form fieldset .form-inputs textarea {
+  height: 70px;
+  resize: none;
+}
+footer form fieldset .form-inputs a {
+  margin-top: 10px;
+  align-self: flex-end;
+}
+footer form fieldset .form-inputs::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: white;
+  margin-top: 70px;
+}
+footer .container-sm {
+  padding-bottom: 50px;
+}
+@media (min-width: 1200px) {
+  footer .footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
