@@ -36,7 +36,7 @@ Este repositorio contiene el código fuente para un microsite de portafolio resp
 ### Tablet 📱💻
 
 <div align="center">
-  <img src="/Projectos-CSS-4-Portfolio--tablet.png" alt="vista tablet"/>
+  <img src="/Projectos-CSS-4-Portfolio-tablet.png" alt="vista tablet"/>
 </div>
 
 <p align="center">
@@ -52,7 +52,7 @@ Este repositorio contiene el código fuente para un microsite de portafolio resp
 ### Escritorio 🖥️
 
 <div align="center">
-  <img src="https://savege-khepri.github.io/portafolio_projects/">
+  <img src="/Projectos-CSS-4-Portfolio-desktop.png/" alt="vista movile"/>
 </div>
 
 <p align="center">
