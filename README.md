@@ -18,50 +18,50 @@ Este repositorio contiene el código fuente para un microsite de portafolio resp
 ## Vista previa 🖼️
 
 ### Móvil 📱
-
+<br>
 <div align="center">
-  <img src="/Projectos-CSS-4-Portfolio--mobile.png" alt="vista movile"/>
+  <img src="/Projectos-CSS-4-Portfolio-mobile.png" alt="vista movile"/>
 </div>
-
+<br>
 <p align="center">
    <a href="/">
-      <img src="https://img.shields.io/badge/-Ver_Codigo-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Codigo-purple?style=for-the-badge" alt="badge">
    </a>
    
    <a href="https://savege-khepri.github.io/modern_art_gallery/">
-      <img src="https://img.shields.io/badge/-Ver_Página-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Página-purple?style=for-the-badge" alt="badge">
    </a>
 </p>
 
 ### Tablet 📱💻
-
+<br>
 <div align="center">
   <img src="/Projectos-CSS-4-Portfolio-tablet.png" alt="vista tablet"/>
 </div>
-
+<br>
 <p align="center">
    <a href="/">
-      <img src="https://img.shields.io/badge/-Ver_Codigo-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Codigo-purple?style=for-the-badge" alt="badge">
    </a>
    
    <a href="https://savege-khepri.github.io/portafolio_projects/">
-      <img src="https://img.shields.io/badge/-Ver_Página-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Página-purple?style=for-the-badge" alt="badge">
    </a>
 </p>
 
 ### Escritorio 🖥️
-
+<br>
 <div align="center">
-  <img src="/Projectos-CSS-4-Portfolio-desktop.png/" alt="vista movile"/>
+  <img src="/Projectos-CSS-4-Portfolio-desktop.png" alt="vista movile"/>
 </div>
-
+<br>
 <p align="center">
    <a href="/">
-      <img src="https://img.shields.io/badge/-Ver_Codigo-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Codigo-purple?style=for-the-badge" alt="badge">
    </a>
    
    <a href="https://savege-khepri.github.io/portafolio_projects/">
-      <img src="https://img.shields.io/badge/-Ver_Página-black?style=for-the-badge" alt="badge">
+      <img src="https://img.shields.io/badge/-Ver_Página-purple?style=for-the-badge" alt="badge">
    </a>
 </p>
 
